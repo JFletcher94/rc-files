@@ -4,8 +4,10 @@ export PS1="\[\e[1;32m\]\t:\[\e[1;31m\]\u@\h:\[\e[m\e[1;35m\]\w\n\[\e[m\e[1;36m\
 #aliases
 alias ls='ls --color'
 alias ll='ls -AlF'
+alias lr='ls -R'
 alias cls='clear;ls'
 alias cll='clear;ll'
+alias clr='clear;lr'
 #alias install='sudo apt-get install'
 #alias remove='sudo apt-get remove'
 
