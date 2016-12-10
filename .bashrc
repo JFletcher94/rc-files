@@ -8,8 +8,8 @@ alias lr='ls -R'
 alias cls='clear;ls'
 alias cll='clear;ll'
 alias clr='clear;lr'
-#alias install='sudo apt-get install'
-#alias remove='sudo apt-get remove'
+alias tar-c='tar -czvf'
+alias tar-x='tar -xzvf'
 
 #prevent runnaway fork()s
 ulimit -u 512
