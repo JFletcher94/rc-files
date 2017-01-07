@@ -11,8 +11,10 @@ alias clr='clear;lr'
 alias tar-c='tar -czvf'
 alias tar-x='tar -xzvf'
 
+alias restart-wifi='sudo service network-manager restart'
+
 #prevent runnaway fork()s
-ulimit -u 512
+ulimit -u 1024
 
 #python path
 export PYTHONPATH=${PYTHONPATH}:~/Documents/pe
